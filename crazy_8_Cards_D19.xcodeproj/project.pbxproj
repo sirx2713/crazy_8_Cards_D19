@@ -8,17 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		2EC99E3D2BBAC3D000C03690 /* crazy_8_Cards_D19App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC99E3C2BBAC3D000C03690 /* crazy_8_Cards_D19App.swift */; };
-		2EC99E3F2BBAC3D000C03690 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC99E3E2BBAC3D000C03690 /* ContentView.swift */; };
+		2EC99E3F2BBAC3D000C03690 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC99E3E2BBAC3D000C03690 /* LandingView.swift */; };
 		2EC99E412BBAC3D100C03690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC99E402BBAC3D100C03690 /* Assets.xcassets */; };
 		2EC99E442BBAC3D100C03690 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC99E432BBAC3D100C03690 /* Preview Assets.xcassets */; };
+		2EC99E4C2BBACAAE00C03690 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC99E4B2BBACAAD00C03690 /* GameView.swift */; };
+		2EC99E4E2BBACD7D00C03690 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC99E4D2BBACD7D00C03690 /* ControlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2EC99E392BBAC3D000C03690 /* crazy_8_Cards_D19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crazy_8_Cards_D19.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC99E3C2BBAC3D000C03690 /* crazy_8_Cards_D19App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crazy_8_Cards_D19App.swift; sourceTree = "<group>"; };
-		2EC99E3E2BBAC3D000C03690 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2EC99E3E2BBAC3D000C03690 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		2EC99E402BBAC3D100C03690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EC99E432BBAC3D100C03690 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2EC99E4A2BBAC50000C03690 /* crazy-8-Cards-D19-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "crazy-8-Cards-D19-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2EC99E4B2BBACAAD00C03690 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		2EC99E4D2BBACD7D00C03690 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +56,13 @@
 		2EC99E3B2BBAC3D000C03690 /* crazy_8_Cards_D19 */ = {
 			isa = PBXGroup;
 			children = (
+				2EC99E4A2BBAC50000C03690 /* crazy-8-Cards-D19-Info.plist */,
 				2EC99E3C2BBAC3D000C03690 /* crazy_8_Cards_D19App.swift */,
-				2EC99E3E2BBAC3D000C03690 /* ContentView.swift */,
 				2EC99E402BBAC3D100C03690 /* Assets.xcassets */,
 				2EC99E422BBAC3D100C03690 /* Preview Content */,
+				2EC99E4D2BBACD7D00C03690 /* ControlView.swift */,
+				2EC99E3E2BBAC3D000C03690 /* LandingView.swift */,
+				2EC99E4B2BBACAAD00C03690 /* GameView.swift */,
 			);
 			path = crazy_8_Cards_D19;
 			sourceTree = "<group>";
@@ -137,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EC99E3F2BBAC3D000C03690 /* ContentView.swift in Sources */,
+				2EC99E4E2BBACD7D00C03690 /* ControlView.swift in Sources */,
+				2EC99E3F2BBAC3D000C03690 /* LandingView.swift in Sources */,
+				2EC99E4C2BBACAAE00C03690 /* GameView.swift in Sources */,
 				2EC99E3D2BBAC3D000C03690 /* crazy_8_Cards_D19App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,9 +285,9 @@
 				DEVELOPMENT_TEAM = K3JR62TZ76;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "crazy-8-Cards-D19-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,9 +314,9 @@
 				DEVELOPMENT_TEAM = K3JR62TZ76;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "crazy-8-Cards-D19-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -11,7 +11,7 @@ import SwiftUI
 struct crazy_8_Cards_D19App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ControlView()
         }
     }
 }
